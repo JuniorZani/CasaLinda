@@ -1,0 +1,60 @@
+html, body {
+    height: 100%;
+    /* overflow: scroll; */
+}
+
+#panel{
+    margin-top: 70px; 
+    margin-left: 90px; 
+    height: calc(100% - 70px);
+    width: calc(100% - 90px);
+    padding: 0 100px;
+}
+
+.card {
+    background-color: #B2D0D1;
+    margin: 1px !important;
+    border: none;
+    border-radius: 20px !important;
+}
+
+.col-4{
+    padding: 0 40px;
+}
+
+.col-6{
+    padding: 0 40px;
+}
+
+h5{
+    font-weight: 700;
+}
+
+h4{
+    font-weight: 500;
+    font-style: italic;
+}
+
+h1{
+    font-weight: 700;
+}
+
+.card-most-sell .card-title, .card-prod-restock .card-title {
+    font-weight: 600 !important;
+    /* padding-left: 30px;
+    padding-top: 25px; */
+}
+
+.card-most-sell, .card-prod-restock {
+    padding-left: 30px;
+    padding-top: 25px;
+    padding-right: 30px;
+    padding-bottom: 25px;
+    max-height: 100%;
+}
+
+.col-6 .card ul li{
+    font-weight: 500;
+    font-style: italic;
+    font-size: 14pt;
+}

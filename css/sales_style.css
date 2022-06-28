@@ -1,0 +1,172 @@
+html, body {
+    height: 100%;
+    /* overflow: scroll; */
+}
+
+#panel{
+    margin-top: 70px; 
+    margin-left: 90px; 
+    height: calc(100% - 70px);
+    width: calc(100% - 90px);
+}
+
+thead th{
+    background-color: #94B3B4 !important;
+}
+
+tbody tr th{
+    padding-left: 20px !important;
+}
+
+tr:nth-child(odd){
+    background-color: #B2D0D1 !important;
+}
+
+.table-row{
+    flex-wrap: nowrap !important;
+}
+
+.card {
+    background-color: #B2D0D1;
+    margin: 1px !important;
+    border: none;
+    border-radius: 20px !important;
+}
+
+.col-4{
+    padding: 0 10px;
+}
+
+.col-6{
+    padding: 0 10px;
+}
+
+h5{
+    font-weight: 500 !important;
+    font-style: italic;
+}
+h1, h2{
+    font-weight: 700 !important;
+}
+
+.col-4 .card .card-text{
+    font-weight: 700 !important;
+}
+
+.card-prod-restock .card-title {
+    font-weight: 600 !important;
+    /* padding-left: 30px;
+    padding-top: 25px; */
+}
+
+.card-prod-restock {
+    padding-left: 30px;
+    padding-top: 25px;
+    padding-right: 30px;
+    padding-bottom: 25px;
+    max-height: 100%;
+}
+
+.col-12 .card ul li{
+    font-weight: 500;
+    font-style: italic;
+    font-size: 14pt;
+}
+
+.table-container{
+    border-radius: 20px !important;
+    background-color: #94B3B4 !important;
+    height: 100% !important;
+    width: 100%;
+    overflow: auto;
+    display: inline-block;
+}
+.table_earnings{
+    border-radius: 20px !important;
+    overflow: scroll !important;
+}
+
+.table{
+    padding: 50px !important;
+    /* min-width: 1300px !important; */
+    max-width: 100%; 
+}
+
+.title {
+    font-family: EvelethSlantW01-Regular;
+    font-weight: regular;
+}
+
+.options {
+    padding-right: 20px;
+}
+
+.add-prod{
+    padding: 9px;
+    border-radius: 10px;
+    
+    background-color: #B2D0D1;
+    transition: all 0.1s ease-in-out;
+}
+.add-prod:hover{
+    background-color: #488b8e;
+}
+.add-prod:active{
+    background-color: #60abaf;
+}
+
+.add-prod:focus, .add-prod:active, .add-prod:visited {
+    box-shadow: none !important;
+}
+
+#search{
+    width: 25px !important;
+    height: 25px !important;
+    align-items: center;
+    background-color: #B2D0D1;
+}
+
+.form-control{
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    border-radius: 15px 0 0 15px !important;
+}
+
+.form-control:focus, .form-control:active, .form-control:visited {
+    box-shadow: none !important;
+    border: 2px solid #B2D0D1 !important;
+}
+
+.form-horizontal{
+    width: 300px;
+}
+
+.btn-default{
+    background-color: #B2D0D1;
+    height: 45px;
+    border-radius: 3px 15px 15px 3px !important;
+    transition: all 0.1s ease-in-out;
+}
+.btn-default:hover{
+    background-color: #488b8e;
+}
+.btn-default:active{
+    background-color: #60abaf;
+}
+
+.btn-default:focus, .btn-default:active, .btn-default:visited {
+    box-shadow: none !important;
+}
+
+.card{
+    border-radius: 15px;
+    /* flex: 1 !important; */
+    /* margin: 12px;
+    padding: 12px; */
+    background-color: #B2D0D1;
+    border: none;
+}
+
+.card-title{
+    font-weight: 500;
+}

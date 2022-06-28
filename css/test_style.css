@@ -1,0 +1,14 @@
+
+.table-wrapper {
+    max-height: 100%;
+    max-width: 100%;
+    overflow: auto;
+    display:inline-block;
+    /* border-radius: 20px !important; */
+}
+
+.table-earnings {
+    background: red;
+    overflow: scroll;
+    border-radius: 20px !important;
+}

@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+* {
+  font-family: "Montserrat Alternates";
+}
+
+html, body{
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  background: #d0e1e2;
+  justify-content: center;
+  align-items: center;
+  /* overflow: hidden; */
+}
+
+.content {
+  position: relative;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  min-width: 360px;
+}
+
+.logo #logo_company{
+  width: 300px;
+}
+
+.login{
+  position: relative;
+  background: #65c3c6;
+  padding: 40px 0px;
+  /* min-width: 100%; */
+  border-radius: 20px;
+}
+
+#usu, #pass{
+  width: 78%;
+  font-size: 12pt;
+  text-align: left;
+  margin: 13px;
+  padding: 12px 14px 12px;
+  border-radius: 8px;
+  border: 2px solid #57bcbf;
+  outline: none;
+  background-color: #D9D9D9;
+  transition: 0.1s;
+  -webkit-transition: 0.1s;
+}
+
+#usu:hover, #pass:hover {
+  /* background-color: #bcb9b9; */
+  border-color: #D9D9D9;
+}
+
+#usu:focus, #pass:focus {
+  border-color: #2ca1a5;
+}
+
+#botaoLogin {
+  background: #D9D9D9;
+  margin: 30px 0 0px;
+  padding: 12px 34px;
+  text-align: center;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+}
+
+#botaoLogin:hover{
+  background-color: #24686b;
+  color: #fff;
+  font-weight: bold;
+}
+
+#botaoLogin:focus{
+  background-color: #3f8e92;
+}
+
+#telaLogin{
+  position: relative;
+  border: none;
+}

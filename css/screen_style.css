@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@font-face {
+    font-family: "EvelethSlantW01-Regular";
+    src: url("/fonts/Eveleth_Slant_W01_Regular.ttf") format("ttf");
+  }
+
+*{
+    font-family: "Montserrat Alternates";
+}
+body{
+    /* position: relative;
+    min-height: 100vh;
+    width: 100%; */
+    overflow: hidden;
+    background: #D0E1E2 ;
+    margin: 0;
+}
+
+.header{
+    position: fixed;
+    /* text-align: center; */
+    top: 0px !important;
+    height: 70px !important;
+    width: 100%;
+    background: #B2D0D1;
+    box-shadow: 0px 1px 6px #8dacae;
+}
+
+.software_name{
+    margin-left: 40%;
+    padding-top: 17px;
+    font-family: EvelethSlantW01-Regular;
+    font-weight: regular;
+    font-size: 24px;
+}
+
+.sidebar{
+    position: fixed !important;
+    /* overflow: scroll; */
+    top: 70px !important;
+    /* left: 0; */
+    height: calc(100% - 70px) !important;
+    width: 90px;
+    background: #ffffff;
+    padding: 0 !important;
+    border-radius: 0 15px;
+    transition: all 0.3s ease;
+    box-shadow: 0px 0px 6px #b0c1c2;
+}
+
+.sidebar.active{
+    width: 250px;
+}
+.sidebar ul{
+    margin-top: 30px;
+    padding-left: 15px;
+    padding-right: 20px;
+}
+.sidebar ul li{
+    position: relative;
+    min-height: 60px;
+    width: 93%;
+    margin: 0 5px;
+    list-style: none;
+}
+.sidebar ul li a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #353434;
+    border-radius: 10px;
+    white-space: nowrap;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, 
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    /* box-shadow: 0px 0px 15px #c7c9c9; */
+}
+.sidebar ul li a:hover{
+    background: #B2D0D1;
+    font-weight: bold;
+}
+.sidebar ul li a:active{
+    background: #B2D0D1;
+    font-weight: bold;
+}
+
+.sidebar ul li a:hover i{
+    color: #353434;
+}
+
+.sidebar ul li a:active{
+    background: #679D9E;
+    font-weight: bold;
+}
+
+.sidebar ul li a i{
+    color: #91CFD1;
+    height: 50px;
+    min-width: 50px;
+    border-radius: 12px;
+    line-height: 50px;
+    text-align: center;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, 
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.sidebar .links_name{
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.1s ease-in;
+}
+.sidebar.active .links_name{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.sidebar .profile_content{
+    position: absolute;
+    background: #5EC1C4;
+    bottom: 0 !important;
+    left: 0 !important;
+    height: 80px;
+    width: 100% !important;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 0px -0px 8px #bcc9ca;
+}
+
+.sidebar .profile_content .profile{
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    height: 80px;
+}
+
+.profile_content .profile .profile_details{
+    display: flex;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    white-space: nowrap;
+    transition: all 0.1s ease-in;
+}
+.sidebar.active .profile .profile_details{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.profile .profile_details .name_job{
+    margin-left: 20px;
+}
+
+.profile .profile_details i{
+    margin-left: 20px;
+    color: #353434;
+}
+
+.profile .profile_details .name{
+    font-size: 18px;
+    margin-bottom: -5px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.profile .profile_details .job{
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.sidebar #log_out{
+    margin-top: 15px;
+    transform: translateX(-127px);
+    transition: all 0.27s ease;
+}
+
+.sidebar.active #log_out{
+   transform: translateX(100%);
+}
+
+#logo_company{
+    position: absolute;
+    width: 145px;
+    height: 57px;
+    left:40px;
+    top: 7px;
+}
+
+/* width */
+body ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: none;
+    /* border-radius: 8px; */
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 8px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
