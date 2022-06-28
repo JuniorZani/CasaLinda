@@ -1,5 +1,4 @@
 # CasaLinda
-<img src="BannerChessGame.svg" alt="BannerChessGame">
 
 >Controle de Estoque desenvolvido com HTML5, PHP, MySQL, CSS e JS
 
