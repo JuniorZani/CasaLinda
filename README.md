@@ -3,7 +3,7 @@
 
 >Controle de Estoque desenvolvido com HTML5, PHP, MySQL, CSS e JS
 
-##**Funcionalidades**
+## **Funcionalidades**
 * Cadastro de Produtos, com a possibilidade de alteração das informações e remoção dos mesmos
 * Adição de movimentações de entrada e saída
 * Visualização das tabelas de produtos, estoque, movimentações e vendas
